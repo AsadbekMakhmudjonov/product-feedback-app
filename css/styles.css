@@ -1,0 +1,138 @@
+.sort {
+  background-color: #373F68;
+}
+
+.sort__select{
+  white-space: nowrap;
+  color: white;
+  align-items: center;
+
+}
+
+.sort__select::placeholder{
+  color: white;
+}
+
+.sort__feedback{
+  background-color: #AD1FEA;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .sort__logo-suggestions-wrapper{
+    display: none !important;
+  }
+}
+
+
+.main-box {
+  margin-bottom: 20px;
+}
+
+.main-box__right {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.222222px;
+  color: #3A4374;
+  display: flex;
+  align-items: center;
+}
+
+.main-box__right::before {
+  content: '';
+  background-image: url(/img/comment.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.main-box__left-btn {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.180556px;
+  color: #3A4374;
+  border-radius: 12px;
+  align-items: center;
+  padding: 12px 10px;
+}
+
+.main-box__left-btn::before {
+  content: '';
+  background-image: url(/img/array-top2.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 10px;
+  height: 8px;
+  margin-bottom: 4px;
+}
+
+.main-box__wrapper-heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.main-box__wrapper-desc {
+  font-size: 16px;
+  line-height: 23px;
+  color: #647196;
+}
+
+.main-box__wrapper-btn {
+  font-size: 13px;
+  line-height: 19px;
+  color: #4661E6;
+  background: #F2F4FF;
+  border-radius: 10px;
+  padding: 5px 16px;
+}
+
+@media only screen and (max-width:576px) {
+  .main-box__right {
+    margin-top: auto;
+  }
+
+  .main-box__left-btn {
+    padding: 5px 15px;
+  }
+
+  .main-box__left-btn::before {
+    margin-right: 6px;
+    margin-bottom: 0;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .sort__logo-suggestions-wrapper {
+    display: none !important;
+  }
+
+  .sort {
+    flex-wrap: wrap;
+  }
+
+}
+
+
+@media only screen and (max-width: 360px){
+  .sort {
+    justify-content: center I !important;
+
+  }
+}
+
+

@@ -1,17 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boostrap 5</title>
+  <title>Product Feedback App</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+  <div class="container-lg">
 
+    <form action="https://echo.htmlacademy.ru" method="GET">
 
+      <header class="header py-4">
+        <div class="header__inner sort rounded-3 py-2 px-3 d-flex align-items-center justify-content-sm-between flex-wrap justify-content-center">
+
+          <div class="d-flex py-3 me-3 me-md-0">
+            <div class="sort__logo-suggestions-wrapper d-flex align-items-center me-3">
+              <a class="logo me-1 d-block" href="index.html">
+                <img src="img/logo.svg" alt="logo">
+              </a>
+              <div class="sort__logo-suggestions text-white"><span>6</span> Suggestions</div>
+            </div>
+            <label class="sort__select d-flex ">Sort by :
+              <select class="form-select sort__select bg-transparent ms-1" name="sort-type">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </label>
+          </div>
+          <button class="btn sort__feedback text-white">+ Add Feedback</button>
+        </div>
+      </header>
+
+      <main class="main mt-5">
+          <div class="main-box d-flex justify-content-between bg-white rounded-3 py-3 px-4">
+            <div class="main-box__left d-flex flex-column-reverse flex-sm-row align-content-start ">
+
+              <div class="main-box__left-button">
+                <button class="main-box__left-btn btn d-flex flex-row flex-sm-column me-3"
+                  style="background-color: #F2F4FE;">
+                  112
+                </button>
+              </div>
+
+              <div class="main-box__left-wrapper d-flex flex-column align-content-start">
+                <h3 class="main-box__wrapper-heading mb-0">
+                  Add tags for solutions
+                </h3>
+
+                <span class="main-box__wrapper-desc mb-1 mb-sm-3">
+                  Easier to search for solutions based on a specific stack.
+                </span>
+                <div>
+                  <button class="main-box__wrapper-btn btn mb-2 mb-sm-0" type="button">Enhancement</button>
+                </div>
+              </div>
+            </div>
+
+            <span class="main-box__right d-flex align-content-center">
+              2
+            </span>
+          </div>
+
+          <div class="main-box d-flex justify-content-between bg-white rounded-3 py-3 px-4">
+            <div class="main-box__left d-flex flex-column-reverse flex-sm-row align-content-start ">
+
+              <div class="main-box__left-button">
+                <button class="main-box__left-btn btn d-flex flex-row flex-sm-column me-3"
+                  style="background-color: #F2F4FE;">
+                  99
+                </button>
+              </div>
+
+              <div class="main-box__left-wrapper d-flex flex-column align-content-start">
+                <h3 class="main-box__wrapper-heading mb-0">
+                  Add a dark theme option
+                </h3>
+
+                <span class="main-box__wrapper-desc mb-1 mb-sm-3">
+                  It would help people with light sensitivities and who prefer dark mode.
+                </span>
+                <div>
+                  <button class="main-box__wrapper-btn btn mb-2 mb-sm-0" type="button">Feature</button>
+                </div>
+              </div>
+            </div>
+
+            <span class="main-box__right d-flex align-content-center">
+              4
+            </span>
+          </div>
+
+          <div class="main-box d-flex justify-content-between bg-white rounded-3 py-3 px-4">
+            <div class="main-box__left d-flex flex-column-reverse flex-sm-row align-content-start ">
+
+              <div class="main-box__left-button">
+                <button class="main-box__left-btn btn d-flex flex-row flex-sm-column me-3"
+                  style="background-color: #F2F4FE;">
+                  65
+                </button>
+              </div>
+
+              <div class="main-box__left-wrapper d-flex flex-column align-content-start">
+                <h3 class="main-box__wrapper-heading mb-0">
+                  Q&A within the challenge hubs
+                </h3>
+
+                <span class="main-box__wrapper-desc mb-1 mb-sm-3">
+                  Challenge-specific Q&A would make for easy reference.
+                </span>
+                <div>
+                  <button class="main-box__wrapper-btn btn mb-2 mb-sm-0" type="button">Feature</button>
+                </div>
+              </div>
+            </div>
+
+            <span class="main-box__right d-flex align-content-center">
+              2
+            </span>
+          </div>
+
+          <div class="main-box d-flex justify-content-between bg-white rounded-3 py-3 px-4">
+            <div class="main-box__left d-flex flex-column-reverse flex-sm-row align-content-start ">
+
+              <div class="main-box__left-button">
+                <button class="main-box__left-btn btn d-flex flex-row flex-sm-column me-3"
+                  style="background-color: #F2F4FE;">
+                  51
+                </button>
+              </div>
+
+              <div class="main-box__left-wrapper d-flex flex-column align-content-start">
+                <h3 class="main-box__wrapper-heading mb-0">
+                  Allow image/video upload
+                </h3>
+
+                <span class="main-box__wrapper-desc mb-1 mb-sm-3">
+                  Images and screencasts can enhance comments on solutions.
+                </span>
+                <div>
+                  <button class="main-box__wrapper-btn btn mb-2 mb-sm-0" type="button">Enhancement</button>
+                </div>
+              </div>
+            </div>
+
+            <span class="main-box__right d-flex align-content-center">
+              2
+            </span>
+          </div>
+
+          <div class="main-box d-flex justify-content-between bg-white rounded-3 py-3 px-4">
+            <div class="main-box__left d-flex flex-column-reverse flex-sm-row align-content-start ">
+
+              <div class="main-box__left-button">
+                <button class="main-box__left-btn btn d-flex flex-row flex-sm-column me-3"
+                  style="background-color: #F2F4FE;">
+                  42
+                </button>
+              </div>
+
+              <div class="main-box__left-wrapper d-flex flex-column align-content-start">
+                <h3 class="main-box__wrapper-heading mb-0">
+                  Ability to follow others
+                </h3>
+
+                <span class="main-box__wrapper-desc mb-1 mb-sm-3">
+                  Stay updated on comments and solutions other people post.
+                </span>
+                <div>
+                  <button class="main-box__wrapper-btn btn mb-2 mb-sm-0" type="button">Feature</button>
+                </div>
+              </div>
+            </div>
+
+            <span class="main-box__right d-flex align-content-center">
+              3
+            </span>
+          </div>
+
+          <div class="main-box d-flex justify-content-between bg-white rounded-3 py-3 px-4">
+            <div class="main-box__left d-flex flex-column-reverse flex-sm-row align-content-start ">
+
+              <div class="main-box__left-button">
+                <button class="main-box__left-btn btn d-flex flex-row flex-sm-column me-3"
+                  style="background-color: #F2F4FE;">
+                  3
+                </button>
+              </div>
+
+              <div class="main-box__left-wrapper d-flex flex-column align-content-start">
+                <h3 class="main-box__wrapper-heading mb-0">
+                  Preview images not loading
+                </h3>
+
+                <span class="main-box__wrapper-desc mb-1 mb-sm-3">
+                  Challenge preview images are missing when you apply a filter.
+                </span>
+                <div>
+                  <button class="main-box__wrapper-btn btn mb-2 mb-sm-0" type="button">Bug</button>
+                </div>
+              </div>
+            </div>
+
+            <span class="main-box__right d-flex align-content-center">
+              0
+            </span>
+          </div>
+
+      </main>
+
+    </form>
+  </div>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
